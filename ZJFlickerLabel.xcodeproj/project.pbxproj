@@ -15,6 +15,7 @@
 		0245FA9D1E7E54C2007C72C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0245FA9B1E7E54C2007C72C7 /* LaunchScreen.storyboard */; };
 		0245FAA81E7E54C2007C72C7 /* ZJFlickerLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FAA71E7E54C2007C72C7 /* ZJFlickerLabelTests.m */; };
 		0245FAB31E7E54C2007C72C7 /* ZJFlickerLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FAB21E7E54C2007C72C7 /* ZJFlickerLabelUITests.m */; };
+		0245FAC21E7E54EF007C72C7 /* WSShiningLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FAC11E7E54EF007C72C7 /* WSShiningLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0245FAAE1E7E54C2007C72C7 /* ZJFlickerLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJFlickerLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0245FAB21E7E54C2007C72C7 /* ZJFlickerLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJFlickerLabelUITests.m; sourceTree = "<group>"; };
 		0245FAB41E7E54C2007C72C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0245FAC01E7E54EF007C72C7 /* WSShiningLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSShiningLabel.h; sourceTree = "<group>"; };
+		0245FAC11E7E54EF007C72C7 /* WSShiningLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSShiningLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0245FA911E7E54C2007C72C7 /* AppDelegate.m */,
 				0245FA931E7E54C2007C72C7 /* ViewController.h */,
 				0245FA941E7E54C2007C72C7 /* ViewController.m */,
+				0245FAC01E7E54EF007C72C7 /* WSShiningLabel.h */,
+				0245FAC11E7E54EF007C72C7 /* WSShiningLabel.m */,
 				0245FA961E7E54C2007C72C7 /* Main.storyboard */,
 				0245FA991E7E54C2007C72C7 /* Assets.xcassets */,
 				0245FA9B1E7E54C2007C72C7 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0245FA951E7E54C2007C72C7 /* ViewController.m in Sources */,
+				0245FAC21E7E54EF007C72C7 /* WSShiningLabel.m in Sources */,
 				0245FA921E7E54C2007C72C7 /* AppDelegate.m in Sources */,
 				0245FA8F1E7E54C2007C72C7 /* main.m in Sources */,
 			);
